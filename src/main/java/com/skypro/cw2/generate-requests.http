@@ -1,3 +1,3 @@
-GET http://localhost:8080/exam/java/add?question=q3&answer=a3
+GET http://localhost:8081/exam/math/add?question=mq1&answer=ma1
 ###
-GET http://localhost:8080/exam/get/2
+GET http://localhost:8081/exam/get/5
