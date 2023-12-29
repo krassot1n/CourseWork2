@@ -3,7 +3,6 @@ package com.skypro.cw2.model;
 import org.springframework.stereotype.Component;
 
 import java.util.Objects;
-@Component
 public class Question {
     private final String question;
 

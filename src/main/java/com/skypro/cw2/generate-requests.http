@@ -1,0 +1,3 @@
+GET http://localhost:8081/exam/math/add?question=mq1&answer=ma1
+###
+GET http://localhost:8081/exam/get/5

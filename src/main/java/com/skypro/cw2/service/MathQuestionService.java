@@ -7,12 +7,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
-@Service("javaQuestions")
-public class JavaQuestionService implements QuestionService {
+@Service("mathQuestions")
+public class MathQuestionService implements QuestionService {
     private final QuestionRepository repository;
     private final Random random = new Random();
 
-    public JavaQuestionService(@Qualifier("javaRepository") QuestionRepository repository) {
+    public MathQuestionService(@Qualifier("mathRepository") QuestionRepository repository) {
         this.repository = repository;
     }
 
